@@ -1,0 +1,15 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    background-color: white;
+  }
+
+.dark body {
+    background-color: #000;
+    color: white;
+  }
+
+  

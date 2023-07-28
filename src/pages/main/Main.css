@@ -1,0 +1,13 @@
+
+.about {
+    position: fixed;
+    left: 10rem;
+    top: 15rem;
+    width: 30rem;
+    justify-content: space-around;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+}
