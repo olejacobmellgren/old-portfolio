@@ -1,0 +1,28 @@
+
+.about {
+    position: fixed;
+    left: 10rem;
+    top: 15rem;
+    width: 30rem;
+    justify-content: space-around;
+}
+
+.textbox {
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0 0.5rem 0.5rem grey;
+    width: 40%;
+    margin-left: 8rem;
+    margin-top: 4rem;
+}
+
+p , h1{
+    padding: 1rem;
+}
+
+.dark .textbox {
+    background-color: black;
+}
+
+
+  

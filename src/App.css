@@ -3,6 +3,37 @@
   font-family: 'Roboto', sans-serif;
 }
 
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.night {
+  position: fixed;
+  top: 0;
+  size: 100%;
+  z-index: -2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.day {
+  position: fixed;
+  top: 0;
+  size: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.dark .day {
+  z-index: -5;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

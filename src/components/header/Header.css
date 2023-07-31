@@ -30,20 +30,21 @@ button {
     display: inline-block;
     padding: 10px 20px;
     margin: 1.5rem 2rem 1rem 1rem;
-    background-color: lightgray;
+    background-color: rgb(98, 226, 109);
     border-radius: 0.5rem;
     cursor: pointer;
-    box-shadow: 0 0.45rem 0 grey;
+    box-shadow: 0 0.45rem 0 rgb(2, 138, 11);
     transition: transform 0.2s ease;
 }
 
 .dark button {
     color: #333;
     background-color: #fff;
+    box-shadow: 0 0.45rem 0 gray;
 }
 
 button:hover {
-    color: grey;
+    color: white;
     transform: translateY(2px);
 }
 
@@ -51,16 +52,29 @@ button:hover {
     color: grey;
 }
 
-button:active {
-    box-shadow: 0 3px 0 grey;
+/* button:active {
+    box-shadow: 0 3px 0 rgb(2, 138, 11);
     transition: 0.05s;
 }
 
-button.active {
+.dark button:active {
+    box-shadow: 0 3px 0 gray;
+} */
+
+button:focus {
+    background-color: rgb(98, 226, 109);
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 0 rgb(2, 138, 11);
+    transition: 0.2s;
+}
+
+.dark button:focus {
     background-color: lightgrey;
-    color: #333;
+    color: gray;
     border-radius: 8px;
     box-shadow: 0 3px 0 grey;
+    transition: 0.2s;
 }
 
 .dark button.active {
@@ -70,12 +84,19 @@ button.active {
 
 .toggle {
     appearance: none;
-    width: 20px;
-    height: 30px;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.3rem 0 0 0.65rem;
     cursor: pointer;
     transition: 1s;
     margin-top: 1.7rem;
     margin-right: 2rem;
+    border: solid 0.1rem white;
+    border-radius: 2rem;
+}
+
+.toggle:hover {
+    background-color: white;
 }
 
 .toggle:after {
@@ -117,9 +138,6 @@ button.active {
     }
     .check:checked ~ ul{
         left: 0;
-        ul {
-            display: none;
-        }
     }
 
 }

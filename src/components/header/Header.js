@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import { NavLink } from "react-router-dom";
 import { DarkModeContext } from "../DarkModeHandler";
 import { useContext } from "react";
 
@@ -13,12 +14,24 @@ const Header = () => {
       <div className='marg'>
         <input className='check' type='checkbox' id='check' />
         <label className='checkbtn' for='check'>
-          <img className='pic' src="https://icons.veryicon.com/png/o/miscellaneous/line-icon/navicon-1.png" alt="" />
+          <img className='pic' src="https://www.pngkit.com/png/full/239-2394744_icon-open-nav-icon-white.png" alt="" />
         </label>
         <ul>
-          <button activeClassName="active">About</button>
-          <button activeClassName="active">Projects</button>
-          <button activeClassName="active">Contact</button>
+          <NavLink to="/">
+            <button >
+              About
+            </button>
+          </NavLink>
+          <NavLink to="/projects">
+            <button  >
+              Projects
+            </button>
+          </NavLink>
+          <NavLink to="/contact">
+            <button >
+              Contact
+            </button>
+          </NavLink>
           <div className="switch">
             <input
               className="toggle"
