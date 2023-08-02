@@ -15,11 +15,6 @@
     margin-left: 8rem;
     margin-top: 4rem;
 }
-
-p , h1{
-    padding: 1rem;
-}
-
 .dark .textbox {
     background-color: black;
 }

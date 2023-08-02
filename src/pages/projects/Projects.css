@@ -1,0 +1,38 @@
+
+.top {
+    display: flex;
+}
+
+.bottom {
+    display: flex;
+}
+
+.top-image {
+    height: 22rem;
+    border-radius: 2rem;
+    margin-left: 4.5rem;
+    margin-top: 4rem;
+    box-shadow: 0 0.5rem 0.5rem grey;
+    cursor: pointer;
+}
+
+.bottom-left-image {
+    height: 46rem;
+    border-radius: 2rem;
+    margin-left: 4.5rem;
+    margin-top: 4rem;
+    box-shadow: 0 0.5rem 0.5rem grey;
+}
+
+.bottom-rigth-image {
+    height: 21rem;
+    border-radius: 2rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
+    box-shadow: 0 0.5rem 0.5rem grey;
+}
+
+.bottom-container {
+    display: flex;
+    padding-bottom: 5rem;
+}
