@@ -21,14 +21,14 @@ ul {
     justify-content: flex-end;
 }
 
-button {
+.button {
     font-size: 1rem;
     color: #000;
     text-decoration: none;
     border: none;
     width: 7rem;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 30px;
     margin: 1.5rem 2rem 1rem 1rem;
     background-color: rgb(98, 226, 109);
     border-radius: 0.5rem;
@@ -37,42 +37,38 @@ button {
     transition: transform 0.2s ease;
 }
 
-.dark button {
+button {
+    justify-content: center;
+    padding-right: 2rem;
+}
+
+.dark .button {
     color: #333;
     background-color: #fff;
     box-shadow: 0 0.45rem 0 gray;
 }
 
-button:hover {
+.button:hover {
     color: white;
     transform: translateY(2px);
 }
 
-.dark button:hover {
+.dark .button:hover {
     color: grey;
 }
 
-/* button:active {
-    box-shadow: 0 3px 0 rgb(2, 138, 11);
-    transition: 0.05s;
-}
-
-.dark button:active {
-    box-shadow: 0 3px 0 gray;
-} */
-
-button:focus {
+.selected {
     background-color: rgb(98, 226, 109);
     color: white;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     box-shadow: 0 3px 0 rgb(2, 138, 11);
     transition: 0.2s;
 }
 
-.dark button:focus {
+.dark .selected {
     background-color: lightgrey;
     color: gray;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     box-shadow: 0 3px 0 grey;
     transition: 0.2s;
 }

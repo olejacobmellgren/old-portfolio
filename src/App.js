@@ -6,6 +6,7 @@ import Main from './pages/Main';
 import Projects from './pages/projects/Projects';
 import Contact from './pages/contact/Contact';
 import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 import DarkModeHandler from './components/DarkModeHandler';
 import videoNight from './images/night.mp4'
 import videoDay from './images/day.mp4'
@@ -24,6 +25,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/secret" element={<Secret />} />
         </Routes>
+        <Footer />
       </Router>
     </DarkModeHandler>
 

@@ -7,30 +7,25 @@ video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  position: fixed;
+  top: 0;
+  size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .night {
-  position: fixed;
-  top: 0;
-  size: 100%;
-  z-index: -2;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  z-index: -20;
+
 }
 
 .day {
-  position: fixed;
-  top: 0;
-  size: 100%;
-  z-index: -1;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  z-index: -10;
 }
 
 .dark .day {
-  z-index: -5;
+  z-index: -50;
 }
 
 
