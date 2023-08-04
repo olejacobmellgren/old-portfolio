@@ -33,7 +33,7 @@ const Main = () => {
   return (
     <div className="main">
       <div >
-        <section className='about hidden'>
+        <section className='container hidden'>
           <div className='textbox'>
             <h1 className='title'> About me </h1>
             <p>
@@ -46,8 +46,7 @@ const Main = () => {
           </div>
           <img className='image' alt='' src={me} />
         </section>
-        <section className='hidden'>
-          <div className='container'>
+        <section className='ai-container hidden'>
             <img className='image black-ai' alt='' src={blackAi} />
             <img className='image white-ai' alt='' src={whiteAi} />
             <div className='textbox'>
@@ -59,7 +58,6 @@ const Main = () => {
                 transform various industries, and I hope to contribute to cutting-edge innovations in this domain.
               </p>
             </div>
-          </div>
         </section>
         <div className='container'>
           <section className='textbox courses-textbox hidden'>
@@ -89,10 +87,10 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <section className='about hidden'>
+        <section className='vektor-container hidden'>
           <img className='image it-vektor' alt='' src={IT} />
           <img className='arrow' alt='' src={arrow} />
-          <div className='textbox'>
+          <div className='textbox vektor-textbox'>
             <h1 className='title'> Current work </h1>
             <p>
               I currently hold a position in the organization Vektorprogrammet. This is a voluntary
