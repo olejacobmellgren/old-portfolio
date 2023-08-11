@@ -14,7 +14,7 @@ function scrollToTop() {
     <div>
       <div className='footer'>
         <a href='#top' onClick={scrollToTop} className='to-top'>
-            Go To Top
+            ^
         </a>
       </div>
     </div>

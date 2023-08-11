@@ -1,16 +1,12 @@
 import React, { useEffect } from 'react';
 import './Projects.css';
-import vektor from './images/vektor.png';
-import vektorpopup from './images/vektorpopup.png';
-import ibdb from './images/ibdb.png';
-import workout from './images/workout.png';
-import workout2 from './images/workout2.png';
-import workout3 from './images/workout3.png';
-import clothingStorage from './images/clothingStorage.png';
-import clothingStorage2 from './images/clothingStorage2.png';
-import nim from './images/nim.png';
-import tictactoe from './images/tictactoe.png';
-import tictactoe2 from './images/tictactoe2.png';
+import { Link } from 'react-router-dom';
+import vektor from '../../images/projects/vektor.png';
+import ibdb from '../../images/projects/ibdb.png';
+import workout from '../../images/projects/workout.png';
+import clothingStorage from '../../images/projects/clothingStorage.png';
+import nim from '../../images/projects/nim.png';
+import tictactoe from '../../images/projects/tictactoe.png';
 
 
 const Projects = () => {
@@ -35,11 +31,11 @@ const Projects = () => {
             <div >
                 <div className='top-container hidden'>
                     <div className='top'>
-                        <img className='image top-image' alt='' src={vektor} />
+                        <Link to='/projects/vektorprogrammet'><img className='image top-image' alt='' src={vektor} /></Link>
                         <p className='tooltip'>Vektorprogrammet</p>
                     </div>
                     <div className='top'>
-                        <img className='image top-image' alt='' src={ibdb} />
+                        <Link to='/projects/ibdb'><img className='image top-image' alt='' src={ibdb} /></Link>
                         <p className='tooltip'>IBDb</p>
                     </div>
                 </div>

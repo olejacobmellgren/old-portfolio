@@ -1,0 +1,28 @@
+
+.image-container {
+    display: flex;
+}
+
+.info-image {
+    height: 22rem;
+    border-radius: 2rem;
+    margin-left: 6rem;
+    margin-top: 4rem;
+    box-shadow: 0 0.5rem 0.5rem grey;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.info-textbox {
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0 0.5rem 0.5rem grey;
+    width: 80%;
+    margin-left: 8rem;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+
+.dark .info-textbox {
+    background-color: black;
+}
