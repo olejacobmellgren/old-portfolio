@@ -43,21 +43,21 @@ const Projects = () => {
                     <div className='bottom hidden'>
                         <div className='bottom-left'>
                             <p className='tooltip'>Workout Journal</p>
-                            <img className='image bottom-left-image' alt='' src={workout} />
+                            <Link to='/projects/workoutjournal'><img className='image bottom-left-image' alt='' src={workout} /></Link>
                         </div>
                         <div className='bottom-left'>
                             <p className='tooltip'>Clothing Storage</p>
-                            <img className='image bottom-left-image' alt='' src={clothingStorage} />
+                            <Link to='/projects/clothingstorage'><img className='image bottom-left-image' alt='' src={clothingStorage} /></Link>
                         </div>
                     </div>
                     <div className='hidden'>
                         <div className='bottom-right'>
                             <p className='tooltip'>TicTacToe</p>
-                            <img className='image bottom-rigth-image' alt='' src={tictactoe} />
+                            <Link to='/projects/tictactoe'><img className='image bottom-rigth-image' alt='' src={tictactoe} /></Link>
                         </div>
                         <div className='bottom-right'>
                             <p className='tooltip'>Nim</p>
-                            <img className='image bottom-rigth-image' alt='' src={nim} />
+                            <Link to='/projects/nim'><img className='image bottom-rigth-image' alt='' src={nim} /></Link>
                         </div>
                     </div>
                 </div>

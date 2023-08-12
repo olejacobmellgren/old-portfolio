@@ -33,15 +33,23 @@ const ProjectComponent = (props) => {
     return (
         <div className="main">
             <div className='top'>
-                <div className='image-container'>
+                <div className='container'>
                     <img className='info-image' alt='' src={props.img} />
                     <img className='info-image' alt='' src={props.img2} />
                 </div>
-                <div className='info-textbox'>
-                    <h1 className='title'> {props.name} </h1>
-                    <p>
-                        {props.description}
-                    </p>
+                <div className='container'>
+                    <div className='info-textbox'>
+                        <h1 className='title'> {props.name} </h1>
+                        <p>
+                            {props.description}
+                        </p>
+                    </div>
+                    <div className='links-box'>
+                        <h1 className='title'> Links </h1>
+                        <a href={props.githubURL} className='link'> Github Repo</a>
+                        {props.link !== '' ?
+                        <a href={props.link} className='link'> {props.name}</a> : null}
+                    </div>
                 </div>
             </div>
         </div>

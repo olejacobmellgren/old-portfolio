@@ -1,15 +1,12 @@
 
-.image-container {
-    display: flex;
-}
 
 .info-image {
-    height: 22rem;
+    height: 70%;
+    width: 36rem;
     border-radius: 2rem;
     margin-left: 6rem;
     margin-top: 4rem;
     box-shadow: 0 0.5rem 0.5rem grey;
-    cursor: pointer;
     transition: 0.25s;
 }
 
@@ -17,12 +14,33 @@
     background-color: white;
     border-radius: 2rem;
     box-shadow: 0 0.5rem 0.5rem grey;
-    width: 80%;
-    margin-left: 8rem;
-    margin-top: 4rem;
-    margin-bottom: 8rem;
+    width: 90%;
+    margin: 2rem 0rem 8rem 6rem;
+}
+
+.links-box {
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0 0.5rem 0.5rem grey;
+    width: 25%;
+    margin: 4rem 6rem 8rem 4rem;
+    height: 10rem;
+    display: grid;
+    justify-content: center;
 }
 
 .dark .info-textbox {
     background-color: black;
+}
+
+.dark .links-box {
+    background-color: black;
+}
+
+.link {
+    font-size: 1.5rem;
+}
+
+.link:hover {
+    text-decoration: underline;
 }
