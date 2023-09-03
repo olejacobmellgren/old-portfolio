@@ -94,7 +94,7 @@ const Main = () => {
             <h1 className='title'> Current work </h1>
             <p>
               I currently hold a position in the organization Vektorprogrammet. This is a voluntary
-              student organization that sends assistants to schools to help with STEM subjects.
+              student organization that sends assistants to schools to help with mathematics.
               I am part of the IT team and work as a developer. This means that I don't go to schools
               to provide assistance directly, but I collaborate with the rest of the IT team a few times
               a week.
