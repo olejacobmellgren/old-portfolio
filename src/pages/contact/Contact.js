@@ -19,7 +19,7 @@ const Contact = () => {
         hiddenElements.forEach((el) => observer.observe(el));
     }, []);
     return (
-        <div className="main">
+        <div className="contact-main">
             <div className='textbox contact hidden'>
                 <h1 className='title'> Contact me :)</h1>
                 <textarea placeholder='Hi Ole Jacob,' type='text-field'/>
