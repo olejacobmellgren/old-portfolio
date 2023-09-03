@@ -19,16 +19,15 @@
 
 .ai-container {
     display: flex;
-    padding-left: 3.5rem;
+    /* padding-left: 3.5rem; */
 }
 
 .vektor-container {
     display: flex;
-    padding-left: 3.5rem;
 }
 
 .vektor-textbox {
-    margin-left: 4rem;
+    margin-right: 8rem;
 }
 
 .sparetime-container {
@@ -110,7 +109,7 @@ h1 {
 .sevenaside {
     width: 35rem;
     height: 24.5rem;
-    margin-right: 4rem;
+    margin-right: 8rem;
     margin-bottom: 5rem;
 }
 

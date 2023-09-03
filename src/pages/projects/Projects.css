@@ -7,16 +7,16 @@
     display: flex;
 }
 
-.image {
+.project-image {
     border-radius: 2rem;
     margin-left: 4.5rem;
-    /* margin-top: 4rem; */
+    margin-top: 4rem;
     box-shadow: 0 0.5rem 0.5rem grey;
     cursor: pointer;
     transition: 0.25s;
 }
 
-.image:hover {
+.project-image:hover {
     box-shadow: 0 1rem 1rem grey;
     transition: 0.25s;
 }

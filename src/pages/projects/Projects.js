@@ -31,11 +31,11 @@ const Projects = () => {
             <div >
                 <div className='top-container hidden'>
                     <div className='top'>
-                        <Link to='/projects/vektorprogrammet'><img className='image top-image' alt='' src={vektor} /></Link>
+                        <Link to='/projects/vektorprogrammet'><img className='project-image top-image' alt='' src={vektor} /></Link>
                         <p className='tooltip'>Vektorprogrammet</p>
                     </div>
                     <div className='top'>
-                        <Link to='/projects/ibdb'><img className='image top-image' alt='' src={ibdb} /></Link>
+                        <Link to='/projects/ibdb'><img className='project-image top-image' alt='' src={ibdb} /></Link>
                         <p className='tooltip'>IBDb</p>
                     </div>
                 </div>
@@ -43,21 +43,21 @@ const Projects = () => {
                     <div className='bottom hidden'>
                         <div className='bottom-left'>
                             <p className='tooltip'>Workout Journal</p>
-                            <Link to='/projects/workoutjournal'><img className='image bottom-left-image' alt='' src={workout} /></Link>
+                            <Link to='/projects/workoutjournal'><img className='project-image bottom-left-image' alt='' src={workout} /></Link>
                         </div>
                         <div className='bottom-left'>
                             <p className='tooltip'>Clothing Storage</p>
-                            <Link to='/projects/clothingstorage'><img className='image bottom-left-image' alt='' src={clothingStorage} /></Link>
+                            <Link to='/projects/clothingstorage'><img className='project-image bottom-left-image' alt='' src={clothingStorage} /></Link>
                         </div>
                     </div>
                     <div className='hidden'>
                         <div className='bottom-right'>
                             <p className='tooltip'>TicTacToe</p>
-                            <Link to='/projects/tictactoe'><img className='image bottom-rigth-image' alt='' src={tictactoe} /></Link>
+                            <Link to='/projects/tictactoe'><img className='project-image bottom-rigth-image' alt='' src={tictactoe} /></Link>
                         </div>
                         <div className='bottom-right'>
                             <p className='tooltip'>Nim</p>
-                            <Link to='/projects/nim'><img className='image bottom-rigth-image' alt='' src={nim} /></Link>
+                            <Link to='/projects/nim'><img className='project-image bottom-rigth-image' alt='' src={nim} /></Link>
                         </div>
                     </div>
                 </div>

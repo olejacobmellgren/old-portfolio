@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import '../Main.css';
+import './Contact.css';
 
 const Contact = () => {
 
@@ -19,67 +20,10 @@ const Contact = () => {
     }, []);
     return (
         <div className="main">
-            <div>
-                <div className='textbox hidden'>
-                    <h1 className='title'> Contact </h1>
-                    <p>
-                        Paragraphs are the building blocks
-                        of papers. Many students define
-                        paragraphs in terms of length: a
-                        paragraph is a group of at least
-                        five sentences,
-                    </p>
-                </div>
-                <div className='textbox hidden'>
-                    <h1 className='title'> About me </h1>
-                    <p>
-                        Paragraphs are the building blocks
-                        of papers. Many students define
-                        paragraphs in terms of length: a
-                        paragraph is a group of at least
-                        five sentences,
-                    </p>
-                </div>
-                <div className='textbox hidden'>
-                    <h1 className='title'> About me </h1>
-                    <p>
-                        Paragraphs are the building blocks
-                        of papers. Many students define
-                        paragraphs in terms of length: a
-                        paragraph is a group of at least
-                        five sentences,
-                    </p>
-                </div>
-                <div className='textbox hidden'>
-                    <h1 className='title'> About me </h1>
-                    <p>
-                        Paragraphs are the building blocks
-                        of papers. Many students define
-                        paragraphs in terms of length: a
-                        paragraph is a group of at least
-                        five sentences,
-                    </p>
-                </div>
-                <div className='textbox hidden'>
-                    <h1 className='title'> About me </h1>
-                    <p>
-                        Paragraphs are the building blocks
-                        of papers. Many students define
-                        paragraphs in terms of length: a
-                        paragraph is a group of at least
-                        five sentences,
-                    </p>
-                </div>
-                <div className='textbox hidden'>
-                    <h1 className='title'> About me </h1>
-                    <p>
-                        Paragraphs are the building blocks
-                        of papers. Many students define
-                        paragraphs in terms of length: a
-                        paragraph is a group of at least
-                        five sentences,
-                    </p>
-                </div>
+            <div className='textbox contact hidden'>
+                <h1 className='title'> Contact me :)</h1>
+                <textarea placeholder='Hi Ole Jacob,' type='text-field'/>
+                <button className='send-button'>Send email</button>
             </div>
         </div>
     );

@@ -23,17 +23,17 @@ ul {
 
 .button {
     font-size: 1rem;
-    color: #000;
+    color: #333;
     text-decoration: none;
     border: none;
     width: 7rem;
     display: inline-block;
     padding: 10px 30px;
     margin: 1.5rem 2rem 1rem 1rem;
-    background-color: rgb(98, 226, 109);
+    background-color: #fff;
     border-radius: 0.5rem;
     cursor: pointer;
-    box-shadow: 0 0.45rem 0 rgb(2, 138, 11);
+    box-shadow: 0 0.45rem 0 gray;
     transition: transform 0.2s ease;
 }
 
@@ -42,40 +42,17 @@ button {
     padding-right: 2rem;
 }
 
-.dark .button {
-    color: #333;
-    background-color: #fff;
-    box-shadow: 0 0.45rem 0 gray;
-}
-
 .button:hover {
-    color: white;
+    color: grey;
     transform: translateY(2px);
 }
 
-.dark .button:hover {
-    color: grey;
-}
-
 .selected {
-    background-color: rgb(98, 226, 109);
-    color: white;
-    border-radius: 0.5rem;
-    box-shadow: 0 3px 0 rgb(2, 138, 11);
-    transition: 0.2s;
-}
-
-.dark .selected {
     background-color: lightgrey;
     color: gray;
     border-radius: 0.5rem;
     box-shadow: 0 3px 0 grey;
     transition: 0.2s;
-}
-
-.dark button.active {
-    border: 1px solid #333;
-    background-color: #fff;
 }
 
 .toggle {
