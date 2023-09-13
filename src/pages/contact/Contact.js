@@ -20,11 +20,9 @@ const Contact = () => {
     }, []);
     return (
         <div className="contact-main">
-            <div className='textbox contact hidden'>
-                <h1 className='title'> Contact me :)</h1>
-                <textarea placeholder='Hi Ole Jacob,' type='text-field'/>
-                <button className='send-button'>Send email</button>
-            </div>
+            {/* <div className='textbox contact hidden'> */}
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfvKDT5r3ADHGLwYfWaGh99UjMGT_27oluoa82hPlC3xICNbg/viewform?embedded=true" width="640" height="375" frameborder="0" marginheight="0" marginwidth="0">Laster inn …</iframe>
+            {/* </div> */}
         </div>
     );
 };
