@@ -1,50 +1,48 @@
 
 .contact {
-    margin-bottom: 4rem;
-    margin-top: 10rem;
-    display:grid;
-    align-items: center;
+    display: grid;
     background-color: lightgray;
+    width: 75%;
+    margin-right: 5rem;
 }
 
 .contact-main {
-    display: flex;
-    margin-top: 10vh;
-    margin-bottom: 18vh;
+    display: grid;
     justify-content: center;
 }
 
-
-.send-button {
-    font-size: 1rem;
-    color: #333;
-    text-decoration: none;
-    border: none;
-    width: 10rem;
-    display: inline-block;
-    padding: 10px 30px;
-    margin: 1.5rem 2rem 1rem 1rem;
-    background-color: #fff;
-    border-radius: 0.5rem;
+.contact-icon {
+    height: 14rem;
+    width: 11rem;
     cursor: pointer;
-    box-shadow: 0 0.45rem 0 gray;
-    transition: transform 0.2s ease;
 }
 
-.send-button:hover {
-    color: grey;
-    transform: translateY(2px);
+.all-icons {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: -5rem;
 }
 
-textarea {
-    width: 80%;
-    height: 10rem;
-    border-radius: 1rem;
-    border: 0.1rem solid grey;
-    margin-bottom: 2rem;
-    margin-left: 1rem;
-    padding-left: 1rem;
+.icon-tooltip {
+    background-color: lightgrey;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    box-shadow: 0 0.5rem 0.5rem grey;
 }
 
+.icon-box .icon-tooltip {
+    position: relative;
+    left: 0.5rem;
+    top: -1.5rem;
+    width: 10rem;
+    opacity: 0;
+}
 
+.icon-box:hover .icon-tooltip  {
+    opacity: 1;
+    transition: 0.5s;
+}
   

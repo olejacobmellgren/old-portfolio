@@ -11,12 +11,10 @@ function scrollToTop() {
     }
 
   return (
-    <div>
-      <div className='footer'>
-        <a href='#top' onClick={scrollToTop} className='to-top'>
+    <div className="footer">
+        <a onClick={scrollToTop} className='to-top'>
             ^
         </a>
-      </div>
     </div>
   );
 };
