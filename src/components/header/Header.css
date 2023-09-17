@@ -19,6 +19,7 @@
 .menu {
     display: flex;
     justify-content: flex-end;
+    border-radius: 1rem;
 }
 
 .button {
@@ -94,7 +95,7 @@ button {
         display: grid;
         grid-template-rows: 4rem 4rem 4rem 1fr;
         justify-content: center;
-        background-color: lightgray;
+        background-color: rgb(234, 234, 234);
         top: 5rem;
         left: -100%;
         padding: 0;

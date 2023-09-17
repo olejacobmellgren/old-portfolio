@@ -28,8 +28,8 @@ function App() {
 
   return (
     <DarkModeHandler>
-      <video className='night' src={videoNight} autoPlay loop muted plays-inline></video>
-      <video className='day' src={videoDay} autoPlay loop muted plays-inline></video>
+      <video className='night' src={videoNight} autoPlay loop muted plays-inline="true"></video>
+      <video className='day' src={videoDay} autoPlay loop muted plays-inline="true"></video>
       <Router>
         <Header />
         <Routes>

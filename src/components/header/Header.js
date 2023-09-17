@@ -18,7 +18,7 @@ const Header = () => {
     <div>
       <div className='marg' id='top'>
         <input className='check' type='checkbox' id='check' />
-        <label className='checkbtn' for='check'>
+        <label className='checkbtn' htmlFor='check'>
           <img className='pic' src="https://www.pngkit.com/png/full/239-2394744_icon-open-nav-icon-white.png" alt="" />
         </label>
         <ul className="menu">
