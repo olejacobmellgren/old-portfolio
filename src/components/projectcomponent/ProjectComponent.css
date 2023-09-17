@@ -47,14 +47,11 @@
 
 @media (max-width: 700px) {
     .info-image {
-        margin-left: 1rem;
-        margin-top: 0rem;
-        width: 22rem;
-        height: 90%;
+        display: none;
     }
 
     .info-textbox {
-        margin: 0rem 0rem 1rem 1.5rem;
+        margin: 5rem 0rem 1rem 1.5rem;
     }
 
     .links-box {

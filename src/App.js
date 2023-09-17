@@ -37,7 +37,9 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/vektorprogrammet" element={<ProjectComponent img={vektor} img2={vektor2} name='Vektorprogrammet' link='https://vektorprogrammet.no/' githubURL='https://github.com/vektorprogrammet'
               description='I currently hold a position in the organization Vektorprogrammet. This is a voluntary student organization that sends assistants to schools to help with STEM subjects. I am part of the IT team and work as a developer. 
-              This means that I dont go to schools to provide assistance directly, but I collaborate with the rest of the IT team a few times a week. Currently, our team is working on developing a new website using React with Typescript, and the 
+              This means that I dont go to schools to provide assistance directly, but I collaborate with the rest of the IT team a few times a week. 
+              
+              Currently, our team is working on developing a new website using React with Typescript, and the 
               backend is built with PHP and SQL (More info in "Projects"-tab). Being a member of this IT team since spring 2023 has given me valuable experience in relevant team-based work over an extended period. Some of my recent work has been the new login popup for the website.
               If you want to read more about the organization or see the github-code for the project, links are to the right.'/>} />
           <Route path="/projects/ibdb" element={<ProjectComponent img={ibdb} img2={ibdb2} name='IBDb' link='https://ibdb-743f5.firebaseapp.com/' githubURL='https://github.com/olejacobmellgren/IBDb'
