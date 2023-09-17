@@ -119,3 +119,41 @@ h1 {
     left: 21rem;
     rotate: 50deg;
 }
+
+@media (max-width: 700px) {
+
+    .container {
+        display: grid;
+        justify-content: center;
+    }
+
+    .image {
+        display: none;
+    }
+    .icon-container {
+        display: none;
+    }
+
+    .arrow {
+        display: none;
+    }
+    .textbox {
+        width: 94%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .vektor-textbox {
+        width: 94%;
+        margin-right: 0rem;
+    }
+
+    .sparetime-text {
+        margin-bottom: 5rem;
+        margin-top: 4rem;
+    }
+    
+    .courses-textbox {
+        width: 94%;
+    }
+
+}

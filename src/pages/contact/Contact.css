@@ -45,4 +45,35 @@
     opacity: 1;
     transition: 0.5s;
 }
+
+@media (max-width: 700px) {
+    .contact {
+        width: 100%;
+        margin-right: 0rem;
+    }
+
+    .contact-main {
+        margin-top: 2rem;
+    }
+
+    .contact-icon {
+        height: 10rem;
+        width: 8rem;
+    }
+
+    .all-icons {
+        margin-bottom: -2rem;
+    }
+
+    .icon-box .icon-tooltip {
+        left: 1rem;
+        top: -1rem;
+        width: 6rem;
+        opacity: 1;
+    }
+
+    .google-form {
+        width: 100%;
+    }
+}
   

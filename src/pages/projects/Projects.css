@@ -102,3 +102,70 @@
     display: flex;
     padding-bottom: 5rem;
 }
+
+@media (max-width: 700px) {
+
+    .tooltip {
+        font-size: 1rem;
+    }
+
+    .project-image {
+        margin: 1rem 1rem 0rem 1rem;
+    }
+
+    .top-container {
+        display: grid;
+    }
+
+    .top-image {
+        height: 12rem;
+    }
+
+    .top-image:hover {
+        height: 12rem;
+    }
+
+
+    .top .tooltip {
+        left: 2rem;
+        width: 17rem;
+        opacity: 1;
+    }
+
+    .bottom-container {
+        display: grid;
+    }
+
+    .bottom {
+        display: grid;
+    }
+
+    .bottom-left-image {
+        height: 40rem;
+        margin-top: 0;
+    }
+    
+    .bottom-left-image:hover {
+        height: 40rem;
+    }
+
+    .bottom-left .tooltip {
+        position: relative;
+        left: 2rem;
+        top: 43rem;
+        width: 20rem;
+        opacity: 1;
+    }
+
+    .bottom-right .tooltip {
+        position: relative;
+        left: 1.5rem;
+        top: 25rem;
+        width: 20rem;
+        opacity: 1;
+    }
+
+  
+
+    
+}

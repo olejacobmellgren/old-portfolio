@@ -37,3 +37,17 @@
 html {
     scroll-behavior: smooth;
 }
+
+@media (max-width: 700px) {
+    .to-top {
+        width: 10%;
+        height: 5%;
+        font-size: 2rem;
+    }
+
+    .to-top:hover {
+        width: 10%;
+        height: 5%;
+        color: black;
+    }
+}
