@@ -103,7 +103,7 @@
     padding-bottom: 5rem;
 }
 
-@media (max-width: 700px) {
+@media (orientation: portrait) {
 
     .tooltip {
         font-size: 1rem;

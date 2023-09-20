@@ -3,8 +3,8 @@
 .checkbtn {
     float: right;
     line-height: 80px;
-    margin-right: 2.5rem;
     margin-top: 1rem;
+    margin-left: 2rem;
     display: none;
 }
 
@@ -84,7 +84,7 @@ button {
     content: '\1F506';
 }
 
-@media (max-width: 700px) {
+@media (orientation: portrait) {
     .checkbtn {
         display: block;
     }
@@ -112,7 +112,7 @@ button {
     }
     .marg {
         display: flex;
-        justify-content: center;
+        justify-content: start;
     }
     .check:checked ~ .menu{
         left: 0;

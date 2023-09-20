@@ -38,7 +38,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className='textbox contact hidden'>
-                <iframe className="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLSfvKDT5r3ADHGLwYfWaGh99UjMGT_27oluoa82hPlC3xICNbg/viewform?embedded=true" width="640" height="375">Laster inn …</iframe>
+                <iframe id="form" className="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLSfvKDT5r3ADHGLwYfWaGh99UjMGT_27oluoa82hPlC3xICNbg/viewform?embedded=true" width="640" height="375">Laster inn …</iframe>
             </div>
         </div>
     );

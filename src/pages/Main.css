@@ -93,8 +93,8 @@ h1 {
 }
 
 .white-ai {
-    position: fixed;
     z-index: -1;
+    position: fixed;
 }
 
 .dark .white-ai {
@@ -120,7 +120,7 @@ h1 {
     rotate: 50deg;
 }
 
-@media (max-width: 700px) {
+@media (orientation: portrait) {
 
     .container {
         display: grid;
@@ -129,6 +129,16 @@ h1 {
 
     .image {
         display: none;
+    }
+
+    .me {
+        display: block;
+        margin-left: 1rem;
+    }
+
+    .sevenaside {
+        display: block;
+        margin: 0 1rem 0 1rem;
     }
     .icon-container {
         display: none;
@@ -150,6 +160,11 @@ h1 {
     .sparetime-text {
         margin-bottom: 5rem;
         margin-top: 4rem;
+    }
+
+    .sparetime-container {
+        display: grid;
+        justify-content: center;
     }
     
     .courses-textbox {

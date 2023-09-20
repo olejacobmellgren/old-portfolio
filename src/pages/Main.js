@@ -34,6 +34,7 @@ const Main = () => {
     <div className="main">
       <div >
         <section className='container hidden'>
+          <img className='image me' alt='' src={me} />
           <div className='textbox'>
             <h1 className='title'> About me </h1>
             <p>
@@ -44,7 +45,6 @@ const Main = () => {
               about my chosen path as a developer in the IT sector.
             </p>
           </div>
-          <img className='image' alt='' src={me} />
         </section>
         <section className='ai-container hidden'>
             <img className='image black-ai' alt='' src={blackAi} />

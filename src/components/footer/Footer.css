@@ -12,7 +12,7 @@
     padding-bottom: 0.5rem;
     position: fixed;
     bottom: 5%;
-    right: 0.5%;
+    right: 1rem;
     display: flex;
     justify-content: center;
     font-size: 3rem;
@@ -38,7 +38,7 @@ html {
     scroll-behavior: smooth;
 }
 
-@media (max-width: 700px) {
+@media (orientation: portrait) {
     .to-top {
         width: 10%;
         height: 5%;
