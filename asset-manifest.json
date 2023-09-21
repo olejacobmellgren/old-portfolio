@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e9b932d.css",
-    "main.js": "/static/js/main.20fa057f.js",
+    "main.css": "/static/css/main.c212b970.css",
+    "main.js": "/static/js/main.eeae2416.js",
     "static/media/black.mp4": "/static/media/black.40fddcd61303eaf97d15.mp4",
     "static/media/white.mp4": "/static/media/white.630a16dd154520bae11c.mp4",
     "static/media/IT_V23.jpg": "/static/media/IT_V23.7f7154dced27b5cea658.jpg",
-    "static/media/javascript.png": "/static/media/javascript.53aa91b90779472c819c.png",
     "static/media/sevenaside.png": "/static/media/sevenaside.d80636aaa54dc1cc587a.png",
     "static/media/python.webp": "/static/media/python.08e546e7b8abe33b2326.webp",
     "static/media/sql.webp": "/static/media/sql.05a65fd9a956332d9936.webp",
     "static/media/ibdb2.png": "/static/media/ibdb2.1ffa0ebc1f7573e88786.png",
     "static/media/ibdb.png": "/static/media/ibdb.1c9e13cb245a77aba33d.png",
     "static/media/clothingStorage2.png": "/static/media/clothingStorage2.f9764abf5f93e9cb23a0.png",
+    "static/media/typescript.png": "/static/media/typescript.b601ddaf78fe765ae9e6.png",
     "static/media/clothingStorage.png": "/static/media/clothingStorage.c1b06681e66bb16ec20a.png",
     "static/media/workout3.png": "/static/media/workout3.ab8debbf91ce61bc0857.png",
     "static/media/java.jpeg": "/static/media/java.1279224d36712dc48152.jpeg",
@@ -30,11 +30,11 @@
     "static/media/me.jpeg": "/static/media/me.5385df977b9699577635.jpeg",
     "static/media/linkedin.webp": "/static/media/linkedin.bae04a03b89f567a1fc9.webp",
     "index.html": "/index.html",
-    "main.7e9b932d.css.map": "/static/css/main.7e9b932d.css.map",
-    "main.20fa057f.js.map": "/static/js/main.20fa057f.js.map"
+    "main.c212b970.css.map": "/static/css/main.c212b970.css.map",
+    "main.eeae2416.js.map": "/static/js/main.eeae2416.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e9b932d.css",
-    "static/js/main.20fa057f.js"
+    "static/css/main.c212b970.css",
+    "static/js/main.eeae2416.js"
   ]
 }
