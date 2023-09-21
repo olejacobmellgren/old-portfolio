@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import '../Main.css';
 import './Contact.css';
-import facebook from '../../images/contact-images/facebook.webp';
-import linkedin from '../../images/contact-images/linkedin.webp';
-import gmail from '../../images/contact-images/gmail.webp';
+import facebook from '../../images/contact-images/facebook.png';
+import linkedin from '../../images/contact-images/linkedin.png';
+import gmail from '../../images/contact-images/gmail.png';
 
 const Contact = () => {
 
