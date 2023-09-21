@@ -11,13 +11,13 @@
     border-radius: 2rem;
     margin-left: 4.5rem;
     margin-top: 4rem;
-    box-shadow: 0 0.5rem 0.5rem grey;
+    box-shadow: 0 0.5rem 0.5rem rgb(40, 40, 40);
     cursor: pointer;
     transition: 0.25s;
 }
 
 .project-image:hover {
-    box-shadow: 0 1rem 1rem grey;
+    box-shadow: 0 1rem 1rem rgba(40, 40, 40, 0.5);
     transition: 0.25s;
 }
 

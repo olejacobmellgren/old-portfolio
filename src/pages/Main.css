@@ -5,11 +5,15 @@
 
 .textbox {
     background-color: white;
-    border-radius: 2rem;
-    box-shadow: 0 0.5rem 0.5rem grey;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.7);
     width: 40%;
     margin-left: 8rem;
     margin-top: 4rem;
+}
+
+.dark .textbox {
+    background-color: rgb(33, 33, 33);
 }
 
 .container {
@@ -43,9 +47,6 @@
     width: 200rem;
 }
 
-.dark .textbox {
-    background-color: black;
-}
 
 .icon {
     width: 30%;
@@ -81,10 +82,10 @@ h1 {
 
 .image {
     height: 14rem;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     margin-left: 12rem;
     margin-top: 4rem;
-    box-shadow: 0 0.5rem 0.5rem grey;
+    box-shadow: 0 0.1rem 0.1rem black;
 }
 
 .me {
