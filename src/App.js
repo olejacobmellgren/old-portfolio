@@ -8,8 +8,8 @@ import Contact from './pages/contact/Contact';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import DarkModeHandler from './components/DarkModeHandler';
-import videoNight from './images/black.mp4';
-import videoDay from './images/white.mp4';
+import videoBlack from './images/black.mp4';
+import videoWhite from './images/white.mp4';
 import ibdb from './images/projects/ibdb.png';
 import ibdb2 from './images/projects/ibdb2.png';
 import vektor from './images/projects/vektor.png';
@@ -24,37 +24,40 @@ import nim from './images/projects/nim.png';
 import nim2 from './images/projects/nim2.png';
 import ProjectComponent from './components/projectcomponent/ProjectComponent';
 
+
 function App() {
 
   return (
     <DarkModeHandler>
-      <video className='night' src={videoNight} autoPlay loop muted plays-inline="true"></video>
-      <video className='day' src={videoDay} autoPlay loop muted plays-inline="true"></video>
+      <video className='black' src={videoBlack} autoPlay loop muted plays-inline="true"></video>
+      <video className='white' src={videoWhite} autoPlay loop muted plays-inline="true"></video>
       <Router>
         <Header />
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/vektorprogrammet" element={<ProjectComponent img={vektor} img2={vektor2} name='Vektorprogrammet' link='https://vektorprogrammet.no/' githubURL='https://github.com/vektorprogrammet'
-              description='I currently hold a position in the organization Vektorprogrammet. This is a voluntary student organization that sends assistants to schools to help with STEM subjects. I am part of the IT team and work as a developer. 
-              This means that I dont go to schools to provide assistance directly, but I collaborate with the rest of the IT team a few times a week. 
-              
-              Currently, our team is working on developing a new website using React with Typescript, and the 
-              backend is built with PHP and SQL (More info in "Projects"-tab). Being a member of this IT team since spring 2023 has given me valuable experience in relevant team-based work over an extended period. Some of my recent work has been the new login popup for the website.
-              If you want to read more about the organization or see the github-code for the project, links are to the right.'/>} />
+              description='For tiden har jeg et verv i organisasjonen Vektorprogrammet. Dette er en frivillig studentorganisasjon som sender ut assistenter 
+              til skoler for å hjelpe med realfag. Jeg er en del av IT-teamet og har 
+              en stilling som utvikler. Det vil si at jeg ikke drar ut til skoler for 
+              å hjelpe, men arbeider med resten av IT-teamet et par ganger i uka. 
+              Nåværende arbeid er utvikling av en ny nettside som skal lages i React med 
+              typescript og en backend som bruker PHP og SQL. I dette IT-teamet, som jeg 
+              har vært med i siden våren 2023, har jeg fått mye erfaring med relevant arbeid i team over en lengre periode. Noen av mine nylige arbeider har vært den nye påloggingspopupen for nettsiden.
+
+              Hvis du ønsker å lese mer om organisasjonen eller se GitHub-koden for prosjektet, er lenker til høyre.'/>} />
           <Route path="/projects/ibdb" element={<ProjectComponent img={ibdb} img2={ibdb2} name='IBDb' link='https://ibdb-743f5.firebaseapp.com/' githubURL='https://github.com/olejacobmellgren/IBDb'
-              description='IBDb - Internet Book Database, is a website inspired by IMDb. On this site, you can search for books, authors, and read about each individual book. You can create a user account and provide ratings for the books you have read, in order to help others decide which book they want to read.
-              This project was a part of a subject I had in my 2nd year. We were a group of six students working together on a frontend using React and backend using firebase.'
+              description='IBDb - Internet Book Database, er en nettside inspirert av IMDb. På dette nettstedet kan du søke etter bøker, forfattere og lese om hver enkelt bok. Du kan opprette en brukerkonto og gi vurderinger for bøkene du har lest, for å hjelpe andre med å bestemme hvilken bok de ønsker å lese.
+              Dette prosjektet var en del av et fag jeg hadde i mitt andre år. Vi var en gruppe på seks studenter som samarbeidet om å utvikle en frontend med React og en backend med Firebase.'
               />} />
           <Route path="/projects/workoutjournal" element={<ProjectComponent name='WorkoutJournal' img={workout2} img2={workout3} link='' githubURL='https://github.com/olejacobmellgren/workoutJournal'
-              description='WorkoutJournal is an application that I created in Java and JavaFX. The app can be used to log workouts, mood and sleep, and see the statistics for the workouts.The project was developed in relation to the Object-Oriented Programming course (TDT4100) at NTNU.'/>} />
+              description='WorkoutJournal er en applikasjon som jeg opprettet i Java og JavaFX. Appen kan brukes til å logge treningsøkter, humør og søvn, samt se statistikken for treningsøktene. Prosjektet ble utviklet i forbindelse med kurset i objektorientert programmering (TDT4100) ved NTNU.'/>} />
           <Route path="/projects/clothingstorage" element={<ProjectComponent name='ClothingStorage' img={clothingStorage} img2={clothingStorage2} link='' githubURL='https://github.com/olejacobmellgren/clothingStorage'
-              description='Clothing Storage is an application for clothing storage written in Java. The project was created by group 2251 in the IT1901 course at NTNU. The ClothingStorage app aims to assist clothing store owners and employees in managing their inventories. Users can get an 
-              overview of the clothes in their inventory, add or remove clothes, change prices, apply discounts to clothes and brands, as well as the ability to filter based on clothing type, brand, price, and discounts. The app also has a dedicated statistics page that displays inventory statistics.'/>} />
+              description='Clothing Storage er en applikasjon for klær og lagerbeholdning skrevet i Java. Prosjektet ble laget i forbindelse med IT1901-kurset ved NTNU. Målet med ClothingStorage-appen er å hjelpe eiere av klesbutikker og ansatte med å administrere inventaret sitt. Brukere kan få en oversikt over klærne i lageret sitt, legge til eller fjerne klær, endre priser, anvende rabatter på klær og merker, samt filtrere basert på klesstype, merke, pris og rabatter. Appen har også en dedikert statistikkside som viser lagerstatistikk.'/>} />
           <Route path="/projects/tictactoe" element={<ProjectComponent name='TicTacToe' img={tictactoe} img2={tictactoe2} link='' githubURL='https://github.com/olejacobmellgren/tictactoe'
-              description='TicTacToe is a game that I have made using Java and JavaFX. The project was created on my own initiative and is not a part of my education at NTNU. In this version of TicTacToe you can play either two player on the same device or one player against a computer.'/>} />
+              description='TicTacToe er et spill jeg har laget ved hjelp av Java og JavaFX. Prosjektet ble opprettet på eget initiativ og er ikke en del av studiene mine ved NTNU. I denne versjonen av TicTacToe kan du enten spille to spillere på samme enhet eller en spiller mot datamaskinen.'/>} />
           <Route path="/projects/nim" element={<ProjectComponent name='Nim' img={nim} img2={nim2} link='' githubURL='https://github.com/olejacobmellgren/nim'
-              description='Nim is a game that I have made using Java and JavaFX. The project was created on my own initiative and is not a part of my education at NTNU. Nim is a game for two players. The game consists of four rows with different numbers of matches (1, 3, 5, 7). Players take turns drawing a desired number of matches from one row at a time, and the player who has to draw the last match loses.'/>} />
+              description='Nim er et spill jeg har laget ved hjelp av Java og JavaFX. Prosjektet ble opprettet på eget initiativ og er ikke en del av studiene mine ved NTNU. Nim er et spill for to spillere. Spillet består av fire rader med ulikt antall fyrstikker (1, 3, 5, 7). Spillerne tar tur til å trekke et ønsket antall fyrstikker fra én rad om gangen, og spilleren som må trekke den siste fyrstikken taper.'/>} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/secret" element={<Secret />} />
         </Routes>

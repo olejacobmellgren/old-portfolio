@@ -19,7 +19,6 @@
 
 .ai-container {
     display: flex;
-    /* padding-left: 3.5rem; */
 }
 
 .vektor-container {
@@ -88,6 +87,11 @@ h1 {
     box-shadow: 0 0.5rem 0.5rem grey;
 }
 
+.me {
+    margin-left: 18rem;
+    margin-right: 5rem;
+}
+
 .black-ai {
     z-index: -2;
 }
@@ -104,6 +108,7 @@ h1 {
 .it-vektor {
     width: 40rem;
     height: 27.5rem;
+    margin-left: 8rem;
 }
 
 .sevenaside {
@@ -116,7 +121,7 @@ h1 {
 .arrow {
     position: fixed;
     top: 4rem;
-    left: 21rem;
+    left: 17rem;
     rotate: 50deg;
 }
 
@@ -134,6 +139,7 @@ h1 {
     .me {
         display: block;
         margin-left: 1rem;
+        margin-right: 0;
     }
 
     .sevenaside {

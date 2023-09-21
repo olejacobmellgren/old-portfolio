@@ -24,17 +24,17 @@ const Header = () => {
         <ul className="menu">
           <NavLink to="/" >
             <button onClick={removeMenu} className={location.pathname === '/' ? 'button selected' : 'button'}>
-              About
+              Om meg
             </button>
           </NavLink>
           <NavLink to="/projects">
             <button onClick={removeMenu} className={location.pathname === '/projects' ? 'button selected' : 'button'} >
-              Projects
+              Prosjekter
             </button>
           </NavLink>
           <NavLink to="/contact">
             <button onClick={removeMenu} className={location.pathname === '/contact' ? 'button selected' : 'button'}>
-              Contact
+              Kontakt meg
             </button>
           </NavLink>
           <div className="switch">

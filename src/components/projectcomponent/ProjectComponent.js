@@ -46,7 +46,7 @@ const ProjectComponent = (props) => {
                         </p>
                     </div>
                     <div className='links-box'>
-                        <h1 className='title'> Links </h1>
+                        <h1 className='title'> Lenker </h1>
                         <a href={props.githubURL} className='link'> Github Repo</a>
                         {props.link !== '' ?
                         <a href={props.link} className='link'> {props.name}</a> : null}

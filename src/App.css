@@ -15,16 +15,16 @@ video {
   background-attachment: fixed;
 }
 
-.night {
+.black {
   z-index: -20;
 
 }
 
-.day {
+.white {
   z-index: -10;
 }
 
-.dark .day {
+.dark .white {
   z-index: -50;
 }
 

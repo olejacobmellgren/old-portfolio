@@ -23,19 +23,19 @@
 }
 
 .button {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #333;
     text-decoration: none;
-    border: none;
-    width: 7rem;
-    display: inline-block;
+    width: auto;
     padding: 10px 30px;
     margin: 1.5rem 2rem 1rem 1rem;
-    background-color: #fff;
     border-radius: 0.5rem;
     cursor: pointer;
-    box-shadow: 0 0.45rem 0 gray;
     transition: transform 0.2s ease;
+}
+
+.dark .button {
+    color: white;
 }
 
 button {
@@ -49,11 +49,8 @@ button {
 }
 
 .selected {
-    background-color: lightgrey;
-    color: gray;
     border-radius: 0.5rem;
-    box-shadow: 0 3px 0 grey;
-    transition: 0.2s;
+    border: solid 0.1rem grey;
 }
 
 .toggle {
