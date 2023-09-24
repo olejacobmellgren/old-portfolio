@@ -23,6 +23,7 @@ import tictactoe2 from './images/projects/tictactoe2.png';
 import nim from './images/projects/nim.png';
 import nim2 from './images/projects/nim2.png';
 import ProjectComponent from './components/projectcomponent/ProjectComponent';
+import WrappedMain from './pages/Main';
 
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="/" element={<WrappedMain />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/vektorprogrammet" element={<ProjectComponent img={vektor} img2={vektor2} name='Vektorprogrammet' link='https://vektorprogrammet.no/' githubURL='https://github.com/vektorprogrammet'
               description='For tiden har jeg et verv i organisasjonen Vektorprogrammet. Dette er en frivillig studentorganisasjon som sender ut assistenter 

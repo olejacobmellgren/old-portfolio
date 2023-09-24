@@ -10,8 +10,6 @@ import java from '../images/about/java.jpeg';
 import typescript from '../images/about/typescript.png';
 import sql from '../images/about/sql.webp';
 import sevenaside from '../images/about/sevenaside.png';
-import { Suspense } from 'react';
-import { useTranslation} from 'react-i18next';
 
 
 const Main = () => {
@@ -31,8 +29,6 @@ const Main = () => {
     hiddenElements.forEach((el) => observer.observe(el));
     
   }, []);
-
-  const { t, i18n } = useTranslation();
 
   return (
     <div className="main">
@@ -121,10 +117,4 @@ const Main = () => {
   );
 };
 
-export default function WrappedMain() {
-  return (
-    <Suspense fallback="...loading">
-      <Main />
-    </Suspense>
-  )
-}
+export default Main;
