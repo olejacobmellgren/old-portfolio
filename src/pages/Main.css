@@ -1,15 +1,11 @@
-.about {
-    display: flex;
-    align-items: center;
-}
 
 .textbox {
     background-color: white;
     border-radius: 0.5rem;
     box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.7);
-    width: 40%;
-    margin-left: 8rem;
+    width: 40vw;
     margin-top: 4rem;
+    padding: 1vw;
 }
 
 .dark .textbox {
@@ -19,43 +15,18 @@
 .container {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10vw;
 }
-
-.ai-container {
-    display: flex;
-}
-
-.vektor-container {
-    display: flex;
-}
-
-.vektor-textbox {
-    margin-right: 8rem;
-}
-
-.sparetime-container {
-    display: flex;
-}
-
-.sparetime-text {
-    width: 150%;
-    margin-bottom: 10rem;
-    margin-top: 8rem;
-}
-
-.courses-textbox {
-    width: 200rem;
-}
-
 
 .icon {
-    width: 30%;
-    height: 10%;
+    width: 10vw;
 }
 
 .icon-container {
-    margin-left: 10rem;
-    margin-top: 5rem;
+    display: flex;
+    margin-top: 5vw;
 }
 
 .hidden {
@@ -71,110 +42,41 @@
     transform: translateX(0);
 }
 
-p {
-    padding: 1rem;
-}
-
 h1 {
     padding: 1rem;
     font-size: 1.5rem;
 }
 
 .image {
-    height: 14rem;
+    height: 16rem;
     border-radius: 0.5rem;
-    margin-left: 12rem;
-    margin-top: 4rem;
+    /* margin-left: 12rem; */
+    margin-top: 4vw;
     box-shadow: 0 0.1rem 0.1rem black;
 }
 
-.me {
-    margin-left: 18rem;
-    margin-right: 5rem;
-}
-
-.black-ai {
-    z-index: -2;
-}
-
-.white-ai {
-    z-index: -1;
-    position: fixed;
-}
-
-.dark .white-ai {
-    z-index: -1000;
-}
-
 .it-vektor {
-    width: 40rem;
-    height: 27.5rem;
-    margin-left: 8rem;
+    height: 24rem;
 }
 
 .sevenaside {
-    width: 35rem;
-    height: 24.5rem;
-    margin-right: 8rem;
-    margin-bottom: 5rem;
+    height: 22rem;
 }
 
 .arrow {
     position: fixed;
-    top: 4rem;
-    left: 17rem;
+    top: 3vw;
+    left: 7rem;
     rotate: 50deg;
 }
 
 @media (orientation: portrait) {
 
-    .container {
-        display: grid;
-        justify-content: center;
-    }
-
-    .image {
+    .black-ai, .white-ai, .icon-container, .arrow {
         display: none;
     }
 
-    .me {
-        display: block;
-        margin-left: 1rem;
-        margin-right: 0;
-    }
-
-    .sevenaside {
-        display: block;
-        margin: 0 1rem 0 1rem;
-    }
-    .icon-container {
-        display: none;
-    }
-
-    .arrow {
-        display: none;
-    }
     .textbox {
-        width: 94%;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .vektor-textbox {
-        width: 94%;
-        margin-right: 0rem;
-    }
-
-    .sparetime-text {
-        margin-bottom: 5rem;
-        margin-top: 4rem;
-    }
-
-    .sparetime-container {
-        display: grid;
-        justify-content: center;
-    }
-    
-    .courses-textbox {
         width: 94%;
     }
 

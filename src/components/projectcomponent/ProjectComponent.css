@@ -1,39 +1,55 @@
 
+.main-container {
+    margin: 0 5vw;
+}
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 4vw;
+}
+
 .info-image {
-    height: 70%;
-    width: 36rem;
+    width: 32rem;
     border-radius: 0.5rem;
-    margin-left: 6rem;
     margin-top: 4rem;
     box-shadow: 0 0.1rem 0.1rem black;
     transition: 0.25s;
 }
 
-.info-textbox {
-    background-color: white;
-    border-radius: 0.5rem;
-    box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.7);
-    width: 90%;
-    margin: 2rem 0rem 9rem 6rem;
+.text-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vw;
+    margin-top: 4vw;
 }
 
+
+.info-textbox {
+    background-color: white;
+    padding: 1vw;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.7);
+    width: 50vw;
+}
+
+
 .links-box {
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
     background-color: white;
     border-radius: 0.5rem;
     box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.7);
-    width: 25%;
-    margin: 4rem 6rem 10rem 4rem;
-    height: 10rem;
-    display: grid;
-    justify-content: center;
+    width: fit-content;
 }
 
 .dark .info-textbox {
-    background-color: black;
+    background-color: rgb(33, 33, 33);
 }
 
 .dark .links-box {
-    background-color: black;
+    background-color: rgb(33, 33, 33);
 }
 
 .link {
@@ -46,12 +62,9 @@
 }
 
 @media (orientation: portrait) {
-    .info-image {
-        display: none;
-    }
 
     .info-textbox {
-        margin: 5rem 0rem 1rem 1.5rem;
+        width: 80vw;
     }
 
     .links-box {

@@ -1,171 +1,62 @@
 
-.top-container {
+.main {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 5vw;
 }
-
-.bottom {
+.image-container {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5vw;
 }
 
 .project-image {
     border-radius: 2rem;
-    margin-left: 4.5rem;
-    margin-top: 4rem;
     box-shadow: 0 0.5rem 0.5rem rgb(40, 40, 40);
     cursor: pointer;
     transition: 0.25s;
 }
 
-.project-image:hover {
-    box-shadow: 0 1rem 1rem rgba(40, 40, 40, 0.5);
-    transition: 0.25s;
-}
-
-.tooltip {
-    background-color: lightgrey;
-    border-radius: 2rem;
-    display: flex;
-    justify-content: center;
+ .tooltip {
+    position: relative;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
     font-size: 1.25rem;
+    width: fit-content;
     box-shadow: 0 0.5rem 0.5rem grey;
+    opacity: 0;
+    left: 0;
+    bottom: 0;
 }
 
-.top {
-    display: grid;
+.dark .tooltip {
+    background-color: rgb(33, 33, 33);
+}
+
+.tooltip-container {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
-.top .tooltip {
-    position: relative;
-    left: 13rem;
-    top: -0.5rem;
-    width: 20rem;
-    opacity: 0;
-}
-
-.top:hover .tooltip  {
+.tooltip-container:hover .tooltip  {
     opacity: 1;
     transition: 0.5s;
 }
 
-.top-image {
+.rectangle-image {
     height: 22rem;
 }
 
-.top-image:hover {
-    height: 23rem;
-}
-
-.bottom-left .tooltip {
-    position: relative;
-    left: 8rem;
-    width: 20rem;
-    opacity: 0;
-}
-
-.bottom-left:hover .tooltip {
-    opacity: 1;
-    transition: 0.5s;
-}
-
-.bottom-left-image {
-    height: 46rem;
+.portrait-image {
+    width: 22rem;
     margin-top: 0;
 }
 
-.bottom-left-image:hover {
-    height: 47rem;
-}
-
-.bottom-right .tooltip {
-    position: relative;
-    left: 5.5rem;
+.square-image {
     width: 20rem;
-    opacity: 0;
-}
-
-.bottom-right:hover .tooltip {
-    opacity: 1;
-    transition: 0.5s;
-}
-
-.bottom-rigth-image {
-    height: 21rem;
     margin-top: 0;
-}
-
-.bottom-rigth-image:hover {
-    height: 22rem;
-}
-
-.bottom-container {
-    display: flex;
-    padding-bottom: 5rem;
-}
-
-@media (orientation: portrait) {
-
-    .tooltip {
-        font-size: 1rem;
-    }
-
-    .project-image {
-        margin: 1rem 1rem 0rem 1rem;
-    }
-
-    .top-container {
-        display: grid;
-    }
-
-    .top-image {
-        height: 12rem;
-    }
-
-    .top-image:hover {
-        height: 12rem;
-    }
-
-
-    .top .tooltip {
-        left: 2rem;
-        width: 17rem;
-        opacity: 1;
-    }
-
-    .bottom-container {
-        display: grid;
-    }
-
-    .bottom {
-        display: grid;
-    }
-
-    .bottom-left-image {
-        height: 40rem;
-        margin-top: 0;
-    }
-    
-    .bottom-left-image:hover {
-        height: 40rem;
-    }
-
-    .bottom-left .tooltip {
-        position: relative;
-        left: 2rem;
-        top: 43rem;
-        width: 20rem;
-        opacity: 1;
-    }
-
-    .bottom-right .tooltip {
-        position: relative;
-        left: 1.5rem;
-        top: 25rem;
-        width: 20rem;
-        opacity: 1;
-    }
-
-  
-
-    
 }

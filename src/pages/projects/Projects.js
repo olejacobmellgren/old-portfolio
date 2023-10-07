@@ -28,37 +28,35 @@ const Projects = () => {
 
     return (
         <div className="main">
-            <div >
-                <div className='top-container hidden'>
-                    <div className='top'>
-                        <Link to='/projects/vektorprogrammet'><img className='project-image top-image' alt='' src={vektor} /></Link>
-                        <p className='tooltip'>Vektorprogrammet</p>
+            <div className='image-container hidden'>
+                <div className='tooltip-container'>
+                    <p className='tooltip'>Vektorprogrammet</p>
+                    <Link to='/projects/vektorprogrammet'><img className='project-image rectangle-image' alt='' src={vektor} /></Link>
+                </div>
+                <div className='tooltip-container'>
+                    <p className='tooltip'>IBDb</p>
+                    <Link to='/projects/ibdb'><img className='project-image rectangle-image' alt='' src={ibdb} /></Link>
+                </div>
+            </div>
+            <div className='image-container'>
+                <div className='image-container hidden'>
+                    <div className='tooltip-container'>
+                        <p className='tooltip'>Workout Journal</p>
+                        <Link to='/projects/workoutjournal'><img className='project-image portrait-image' alt='' src={workout} /></Link>
                     </div>
-                    <div className='top'>
-                        <Link to='/projects/ibdb'><img className='project-image top-image' alt='' src={ibdb} /></Link>
-                        <p className='tooltip'>IBDb</p>
+                    <div className='tooltip-container'>
+                        <p className='tooltip'>Clothing Storage</p>
+                        <Link to='/projects/clothingstorage'><img className='project-image portrait-image' alt='' src={clothingStorage} /></Link>
                     </div>
                 </div>
-                <div className='bottom-container'>
-                    <div className='bottom hidden'>
-                        <div className='bottom-left'>
-                            <p className='tooltip'>Workout Journal</p>
-                            <Link to='/projects/workoutjournal'><img className='project-image bottom-left-image' alt='' src={workout} /></Link>
-                        </div>
-                        <div className='bottom-left'>
-                            <p className='tooltip'>Clothing Storage</p>
-                            <Link to='/projects/clothingstorage'><img className='project-image bottom-left-image' alt='' src={clothingStorage} /></Link>
-                        </div>
+                <div className='hidden'>
+                    <div className='tooltip-container'>
+                        <p className='tooltip'>TicTacToe</p>
+                        <Link to='/projects/tictactoe'><img className='project-image square-image' alt='' src={tictactoe} /></Link>
                     </div>
-                    <div className='hidden'>
-                        <div className='bottom-right'>
-                            <p className='tooltip'>TicTacToe</p>
-                            <Link to='/projects/tictactoe'><img className='project-image bottom-rigth-image' alt='' src={tictactoe} /></Link>
-                        </div>
-                        <div className='bottom-right'>
-                            <p className='tooltip'>Nim</p>
-                            <Link to='/projects/nim'><img className='project-image bottom-rigth-image' alt='' src={nim} /></Link>
-                        </div>
+                    <div className='tooltip-container'>
+                        <p className='tooltip'>Nim</p>
+                        <Link to='/projects/nim'><img className='project-image square-image' alt='' src={nim} /></Link>
                     </div>
                 </div>
             </div>

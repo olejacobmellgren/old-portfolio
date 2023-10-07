@@ -2,52 +2,38 @@
 .footer {
     display: flex;
     justify-content: right;
-    width: 100%;
 }
 
 .to-top {
-    background-color: lightgray;
-    height: 7%;
-    width:  4%;
-    padding-bottom: 0.5rem;
-    position: fixed;
-    bottom: 5%;
-    right: 1rem;
     display: flex;
     justify-content: center;
+    background-color: white;
+    height: 4rem;
+    width:  4rem;
+    padding-bottom: 4vw;
+    position: relative;
+    bottom: 3vw;
+    right: 1rem;
     font-size: 3rem;
-    color: black;
+    color: rgb(33, 33, 33);
     border: 0.2rem solid white;
     border-radius: 100%;
     cursor: pointer;
 }
 
 .dark .to-top {
-    border: 0.2rem solid grey;
+    border: 0.2rem solid gray;
+    background-color: rgb(33, 33, 33);
     color: white
 }
 
 .to-top:hover {
-    width: 4.5%;
-    height: 7.5%;
+    width: 5rem;
+    height: 5rem;
     transition: 0.5s;
     color: grey;
 }
 
 html {
     scroll-behavior: smooth;
-}
-
-@media (orientation: portrait) {
-    .to-top {
-        width: 10%;
-        height: 5%;
-        font-size: 2rem;
-    }
-
-    .to-top:hover {
-        width: 10%;
-        height: 5%;
-        color: black;
-    }
 }

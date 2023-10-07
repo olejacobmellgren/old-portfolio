@@ -4,7 +4,6 @@ const DarkModeHandler = ({children}) => {
 
   const [darkMode, setDarkMode] = useState(localStorage.getItem("darkMode") === "dark");
 
-  // Use Tailwind to enable darkmode for parents html-elements on first render or when darkMode is changed
   useEffect(() => {
     const html = document.documentElement;
 

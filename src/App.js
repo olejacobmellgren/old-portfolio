@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Secret from './pages/secret/Secret';
-import Main from './pages/Main';
 import Projects from './pages/projects/Projects';
 import Contact from './pages/contact/Contact';
 import Header from './components/header/Header';
@@ -46,7 +45,7 @@ function App() {
               typescript og en backend som bruker PHP og SQL. I dette IT-teamet, som jeg 
               har vært med i siden våren 2023, har jeg fått mye erfaring med relevant arbeid i team over en lengre periode. Noen av mine nylige arbeider har vært den nye påloggingspopupen for nettsiden.
 
-              Hvis du ønsker å lese mer om organisasjonen eller se GitHub-koden for prosjektet, er lenker til høyre.'/>} />
+              Hvis du ønsker å lese mer om organisasjonen eller se GitHub-koden for prosjektet, se lenker.'/>} />
           <Route path="/projects/ibdb" element={<ProjectComponent img={ibdb} img2={ibdb2} name='IBDb' link='https://ibdb-743f5.firebaseapp.com/' githubURL='https://github.com/olejacobmellgren/IBDb'
               description='IBDb - Internet Book Database, er en nettside inspirert av IMDb. På dette nettstedet kan du søke etter bøker, forfattere og lese om hver enkelt bok. Du kan opprette en brukerkonto og gi vurderinger for bøkene du har lest, for å hjelpe andre med å bestemme hvilken bok de ønsker å lese.
               Dette prosjektet var en del av et fag jeg hadde i mitt andre år. Vi var en gruppe på seks studenter som samarbeidet om å utvikle en frontend med React og en backend med Firebase.'
