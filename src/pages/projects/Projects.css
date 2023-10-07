@@ -19,6 +19,11 @@
     transition: 0.25s;
 }
 
+.project-image:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
  .tooltip {
     position: relative;
     padding: 0.5rem 1rem;
@@ -28,8 +33,7 @@
     width: fit-content;
     box-shadow: 0 0.5rem 0.5rem grey;
     opacity: 0;
-    left: 0;
-    bottom: 0;
+    z-index: 100;
 }
 
 .dark .tooltip {

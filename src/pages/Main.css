@@ -50,7 +50,6 @@ h1 {
 .image {
     height: 16rem;
     border-radius: 0.5rem;
-    /* margin-left: 12rem; */
     margin-top: 4vw;
     box-shadow: 0 0.1rem 0.1rem black;
 }
@@ -63,16 +62,9 @@ h1 {
     height: 22rem;
 }
 
-.arrow {
-    position: fixed;
-    top: 3vw;
-    left: 7rem;
-    rotate: 50deg;
-}
-
 @media (orientation: portrait) {
 
-    .black-ai, .white-ai, .icon-container, .arrow {
+    .black-ai, .white-ai, .icon-container {
         display: none;
     }
 

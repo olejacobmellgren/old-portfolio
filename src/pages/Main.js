@@ -3,7 +3,6 @@ import './Main.css';
 import me from '../images/about/me.jpeg';
 import whiteAi from '../images/about/white-ai.jpeg';
 import IT from '../images/about/IT_V23.jpg';
-import arrow from '../images/about/arrow.png';
 import python from '../images/about/python.webp';
 import java from '../images/about/java.jpeg';
 import typescript from '../images/about/typescript.png';
@@ -82,7 +81,6 @@ const Main = () => {
       </div>
       <div className='container hidden'>
         <img className='image it-vektor' alt='' src={IT} />
-        <img className='arrow' alt='' src={arrow} />
         <div className='textbox'>
           <h1 className='title'> Nåværende arbeid </h1>
           <p>
