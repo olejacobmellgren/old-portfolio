@@ -64,3 +64,26 @@
     width: 20rem;
     margin-top: 0;
 }
+
+@media (orientation: portrait) {
+    .image-container {
+        gap: 2rem;
+    }
+
+    .rectangle-image {
+        height: 12rem;
+    }
+
+    .portrait-image {
+        width: 15rem;
+    }
+
+    .square-image {
+        width: 15rem;
+    }
+
+    .tooltip {
+        opacity: 1;
+        box-shadow: none;
+    }
+}

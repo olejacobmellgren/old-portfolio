@@ -1,6 +1,6 @@
 
 .checkbtn {
-    float: right;
+    float: left;
     line-height: 80px;
     margin-top: 1rem;
     margin-left: 2rem;
@@ -29,11 +29,13 @@ button {
     padding: 10px 30px;
     margin: 1.5rem 2rem 1rem 1rem;
     border-radius: 0.5rem;
+    border: none;
     cursor: pointer;
     transition: transform 0.2s ease;
 }
 
 .dark button {
+    background-color: inherit;
     color: white;
 
 }
@@ -118,6 +120,7 @@ button:hover {
         display: flex;
         justify-content: start;
     }
+
     .check:checked ~ .menu{
         left: 0;
     }

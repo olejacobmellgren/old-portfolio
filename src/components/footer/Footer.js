@@ -16,9 +16,9 @@ function scrollToTop() {
   return (
     <div className="footer">
       {!location.includes('contact') ? 
-        <a onClick={scrollToTop} className='to-top'>
+        <div onClick={scrollToTop} className='to-top'>
             ^
-        </a>
+        </div>
         : null }
     </div>
   );

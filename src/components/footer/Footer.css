@@ -8,11 +8,10 @@
     display: flex;
     justify-content: center;
     background-color: white;
-    height: 4rem;
-    width:  4rem;
-    padding-bottom: 4vw;
+    height: 3rem;
+    width:  3rem;
     position: relative;
-    bottom: 3vw;
+    bottom: 3vh;
     right: 1rem;
     font-size: 3rem;
     color: rgb(33, 33, 33);
@@ -28,8 +27,7 @@
 }
 
 .to-top:hover {
-    width: 5rem;
-    height: 5rem;
+    transform: translateY(-2px);
     transition: 0.5s;
     color: grey;
 }
