@@ -1,9 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.07f2f89e.css",
-    "main.js": "/static/js/main.15e5d235.js",
-    "static/media/black.mp4": "/static/media/black.40fddcd61303eaf97d15.mp4",
-    "static/media/white.mp4": "/static/media/white.630a16dd154520bae11c.mp4",
+    "main.css": "/static/css/main.2281d0ae.css",
+    "main.js": "/static/js/main.066f2b07.js",
     "static/media/IT_V23.jpg": "/static/media/IT_V23.b8038c683c38ea074356.jpg",
     "static/media/sevenaside.png": "/static/media/sevenaside.d80636aaa54dc1cc587a.png",
     "static/media/python.webp": "/static/media/python.08e546e7b8abe33b2326.webp",
@@ -28,11 +26,11 @@
     "static/media/me.jpeg": "/static/media/me.5385df977b9699577635.jpeg",
     "static/media/linkedin.png": "/static/media/linkedin.aefe7d78a16ce2c7d49e.png",
     "index.html": "/index.html",
-    "main.07f2f89e.css.map": "/static/css/main.07f2f89e.css.map",
-    "main.15e5d235.js.map": "/static/js/main.15e5d235.js.map"
+    "main.2281d0ae.css.map": "/static/css/main.2281d0ae.css.map",
+    "main.066f2b07.js.map": "/static/js/main.066f2b07.js.map"
   },
   "entrypoints": [
-    "static/css/main.07f2f89e.css",
-    "static/js/main.15e5d235.js"
+    "static/css/main.2281d0ae.css",
+    "static/js/main.066f2b07.js"
   ]
 }
