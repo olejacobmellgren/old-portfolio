@@ -1,15 +1,8 @@
 
 .textbox {
-    background-color: white;
-    border-radius: 0.5rem;
-    box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.7);
     width: 40vw;
     margin-top: 4rem;
     padding: 1vw;
-}
-
-.dark .textbox {
-    background-color: rgb(33, 33, 33);
 }
 
 .container {

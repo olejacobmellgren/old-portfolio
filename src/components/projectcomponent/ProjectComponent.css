@@ -27,10 +27,7 @@
 
 
 .info-textbox {
-    background-color: white;
     padding: 1vw;
-    border-radius: 0.5rem;
-    box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.7);
     width: 50vw;
 }
 
@@ -44,10 +41,6 @@
     border-radius: 0.5rem;
     box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.7);
     width: fit-content;
-}
-
-.dark .info-textbox {
-    background-color: rgb(33, 33, 33);
 }
 
 .dark .links-box {

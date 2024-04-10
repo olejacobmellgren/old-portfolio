@@ -1,4 +1,9 @@
 
+.header {
+    display: flex;
+    justify-content: center;
+}
+
 .checkbtn {
     float: left;
     line-height: 80px;
@@ -11,14 +16,19 @@
     display: none;
 }
 
+.switch {
+    position: absolute;
+    right: 0;
+
+}
+
 .pic {
     height: 3rem;
     cursor: pointer;
 }
+
 .menu {
     display: flex;
-    justify-content: flex-end;
-    border-radius: 1rem;
 }
 
 button {
@@ -26,9 +36,8 @@ button {
     color: rgb(33, 33, 33);
     text-decoration: none;
     width: auto;
-    padding: 10px 30px;
-    margin: 1.5rem 2rem 1rem 1rem;
-    border-radius: 0.5rem;
+    padding: 0.5rem 0rem;
+    margin: 2rem 3rem 0rem 1rem;
     border: none;
     cursor: pointer;
     transition: transform 0.2s ease;
@@ -37,21 +46,20 @@ button {
 .dark button {
     background-color: inherit;
     color: white;
-
 }
 
-button:hover {
+.unselected:hover {
     color: grey;
-    transform: translateY(2px);
+    border-bottom: solid 0.2rem rgb(33, 33, 33);
+    opacity: 0.5;
 }
 
 .selected {
-    border-radius: 0.5rem;
-    border: solid 0.1rem rgb(33, 33, 33);
+    border-bottom: solid 0.2rem rgb(33, 33, 33);
 }
 
 .dark .selected {
-    border: solid 0.1rem white;
+    border-bottom: solid 0.2rem white;
 }
 
 .toggle {
@@ -112,13 +120,12 @@ button:hover {
         transition: all 0.5s;
     }
 
-    .dark .menu {
-        background-color: rgb(33, 33, 33);
+    button {
+        background-color: rgb(234, 234, 234);
     }
 
-    .marg {
-        display: flex;
-        justify-content: start;
+    .dark .menu {
+        background-color: rgb(33, 33, 33);
     }
 
     .check:checked ~ .menu{

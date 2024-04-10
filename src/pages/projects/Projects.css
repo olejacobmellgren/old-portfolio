@@ -14,7 +14,7 @@
 
 .project-image {
     border-radius: 2rem;
-    box-shadow: 0 0.5rem 0.5rem rgb(40, 40, 40);
+    box-shadow: 0 0.5rem 0.5rem rgb(130, 130, 130);
     cursor: pointer;
     transition: 0.25s;
 }
@@ -22,22 +22,20 @@
 .project-image:hover {
     transform: scale(1.1);
     transition: 0.5s;
+    box-shadow: 0 0.5rem 0.5rem rgb(177, 177, 177);
+}
+
+.dark .project-image {
+    box-shadow: none;
 }
 
  .tooltip {
     position: relative;
     padding: 0.5rem 1rem;
-    background-color: white;
-    border-radius: 0.5rem;
     font-size: 1.25rem;
     width: fit-content;
-    box-shadow: 0 0.5rem 0.5rem grey;
     opacity: 0;
     z-index: 100;
-}
-
-.dark .tooltip {
-    background-color: rgb(33, 33, 33);
 }
 
 .tooltip-container {
