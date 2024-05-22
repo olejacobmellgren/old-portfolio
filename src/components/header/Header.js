@@ -3,6 +3,7 @@ import './Header.css';
 import { NavLink, useLocation } from "react-router-dom";
 import { DarkModeContext } from "../DarkModeHandler";
 import { useContext } from "react";
+import hamburgerIcon from '../../images/hamburgerIcon.png';
 
 
 const Header = () => {
@@ -18,7 +19,7 @@ const Header = () => {
     <div className='header' id='top'>
       <input className='check' type='checkbox' id='check' />
       <label className='checkbtn' htmlFor='check'>
-        <img className='pic' src="https://www.pngkit.com/png/full/239-2394744_icon-open-nav-icon-white.png" alt="" />
+        <img className='pic' src={hamburgerIcon} alt="" />
       </label>
       <ul className="menu">
         <div className='menu-items'>

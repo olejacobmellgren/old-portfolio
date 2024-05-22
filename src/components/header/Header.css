@@ -2,10 +2,12 @@
 .header {
     display: flex;
     justify-content: center;
+    margin-bottom: 5rem;
 }
 
 .checkbtn {
-    float: left;
+    position: fixed;
+    left: 0;
     line-height: 80px;
     margin-top: 1rem;
     margin-left: 2rem;
