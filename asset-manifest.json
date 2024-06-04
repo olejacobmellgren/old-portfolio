@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2ed9e332.css",
-    "main.js": "/static/js/main.b5db4d8c.js",
+    "main.js": "/static/js/main.24c15f60.js",
     "static/media/IT_V23.jpg": "/static/media/IT_V23.b8038c683c38ea074356.jpg",
     "static/media/sevenaside.png": "/static/media/sevenaside.d80636aaa54dc1cc587a.png",
     "static/media/python.webp": "/static/media/python.08e546e7b8abe33b2326.webp",
@@ -28,10 +28,10 @@
     "static/media/linkedin.png": "/static/media/linkedin.aefe7d78a16ce2c7d49e.png",
     "index.html": "/index.html",
     "main.2ed9e332.css.map": "/static/css/main.2ed9e332.css.map",
-    "main.b5db4d8c.js.map": "/static/js/main.b5db4d8c.js.map"
+    "main.24c15f60.js.map": "/static/js/main.24c15f60.js.map"
   },
   "entrypoints": [
     "static/css/main.2ed9e332.css",
-    "static/js/main.b5db4d8c.js"
+    "static/js/main.24c15f60.js"
   ]
 }
