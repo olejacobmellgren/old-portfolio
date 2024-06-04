@@ -23,18 +23,18 @@ const Header = () => {
       </label>
       <ul className="menu">
         <div className='menu-items'>
-        <NavLink to="/" >
-          <button onClick={removeMenu} className={location.pathname === '/' ? 'selected' : 'unselected'}>
+        <NavLink to="/oldPortfolio" >
+          <button onClick={removeMenu} className={location.pathname === '/oldPortfolio' ? 'selected' : 'unselected'}>
             Om meg
           </button>
         </NavLink>
-        <NavLink to="/projects">
-          <button onClick={removeMenu} className={location.pathname === '/projects' ? 'selected' : 'unselected'} >
+        <NavLink to="/oldPortfolio/projects">
+          <button onClick={removeMenu} className={location.pathname === '/oldPortfolio/projects' ? 'selected' : 'unselected'} >
             Prosjekter
           </button>
         </NavLink>
-        <NavLink to="/contact">
-          <button onClick={removeMenu} className={location.pathname === '/contact' ? 'selected' : 'unselected'}>
+        <NavLink to="/oldPortfolio/contact">
+          <button onClick={removeMenu} className={location.pathname === '/oldPortfolio/contact' ? 'selected' : 'unselected'}>
             Kontakt
           </button>
         </NavLink>
