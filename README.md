@@ -1,4 +1,4 @@
-# Ole Jacob Mellgren website
+# Ole Jacob Mellgren old portfolio
 
-This is a website with info about me and my work:
-https://olejacobmellgren.github.io/
+This is an old website with info about me and some of my work:
+https://olejacobmellgren.github.io/oldPortfolio
