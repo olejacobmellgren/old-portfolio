@@ -35,7 +35,7 @@ const Header = () => {
         </NavLink>
         <NavLink to="/contact">
           <button onClick={removeMenu} className={location.pathname === '/contact' ? 'selected' : 'unselected'}>
-            Kontakt meg
+            Kontakt
           </button>
         </NavLink>
         </div>
