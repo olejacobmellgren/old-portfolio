@@ -31,23 +31,23 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/oldPortfolio" element={<WrappedMain />} />
-          <Route path="/oldPortfolio/projects" element={<Projects />} />
-          <Route path="/oldPortfolio/projects/vektorprogrammet" element={<ProjectComponent img={vektor} img2={vektor2} name='Vektorprogrammet' link='https://vektorprogrammet.no/' githubURL='https://github.com/vektorprogrammet'
+          <Route path="/old-portfolio" element={<WrappedMain />} />
+          <Route path="/old-portfolio/projects" element={<Projects />} />
+          <Route path="/old-portfolio/projects/vektorprogrammet" element={<ProjectComponent img={vektor} img2={vektor2} name='Vektorprogrammet' link='https://vektorprogrammet.no/' githubURL='https://github.com/vektorprogrammet'
               description={description.vektor}/>} />
-          <Route path="/oldPortfolio/projects/ibdb" element={<ProjectComponent img={ibdb} img2={ibdb2} name='IBDb' link='https://ibdb-743f5.firebaseapp.com/' githubURL='https://github.com/olejacobmellgren/IBDb'
+          <Route path="/old-portfolio/projects/ibdb" element={<ProjectComponent img={ibdb} img2={ibdb2} name='IBDb' link='https://ibdb-743f5.firebaseapp.com/' githubURL='https://github.com/olejacobmellgren/IBDb'
               description={description.ibdb}
               />} />
-          <Route path="/oldPortfolio/projects/workoutjournal" element={<ProjectComponent name='WorkoutJournal' img={workout2} img2={workout3} link='' githubURL='https://github.com/olejacobmellgren/workoutJournal'
+          <Route path="/old-portfolio/projects/workoutjournal" element={<ProjectComponent name='WorkoutJournal' img={workout2} img2={workout3} link='' githubURL='https://github.com/olejacobmellgren/workoutJournal'
               description={description.workoutJournal}/>} />
-          <Route path="/oldPortfolio/projects/clothingstorage" element={<ProjectComponent name='ClothingStorage' img={clothingStorage} img2={clothingStorage2} link='' githubURL='https://github.com/olejacobmellgren/clothingStorage'
+          <Route path="/old-portfolio/projects/clothingstorage" element={<ProjectComponent name='ClothingStorage' img={clothingStorage} img2={clothingStorage2} link='' githubURL='https://github.com/olejacobmellgren/clothingStorage'
               description={description.clothingStorage}/>} />
-          <Route path="/oldPortfolio/projects/tictactoe" element={<ProjectComponent name='TicTacToe' img={tictactoe} img2={tictactoe2} link='' githubURL='https://github.com/olejacobmellgren/tictactoe'
+          <Route path="/old-portfolio/projects/tictactoe" element={<ProjectComponent name='TicTacToe' img={tictactoe} img2={tictactoe2} link='' githubURL='https://github.com/olejacobmellgren/tictactoe'
               description={description.tictactoe}/>} />
-          <Route path="/oldPortfolio/projects/nim" element={<ProjectComponent name='Nim' img={nim} img2={nim2} link='' githubURL='https://github.com/olejacobmellgren/nim'
+          <Route path="/old-portfolio/projects/nim" element={<ProjectComponent name='Nim' img={nim} img2={nim2} link='' githubURL='https://github.com/olejacobmellgren/nim'
               description={description.nim}/>} />
-          <Route path="/oldPortfolio/contact" element={<Contact />} />
-          <Route path="/oldPortfolio/secret" element={<Secret />} />
+          <Route path="/old-portfolio/contact" element={<Contact />} />
+          <Route path="/old-portfolio/secret" element={<Secret />} />
         </Routes>
         <Footer />
       </Router>

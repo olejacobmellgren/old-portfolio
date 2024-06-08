@@ -1,7 +1,7 @@
 {
   "name": "olejacobmellgren-website",
   "version": "0.1.0",
-  "homepage": "https://olejacobmellgren.github.io/oldPortfolio",
+  "homepage": "https://olejacobmellgren.github.io/old-portfolio",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",

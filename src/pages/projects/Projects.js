@@ -31,32 +31,32 @@ const Projects = () => {
             <div className='image-container hidden'>
                 <div className='tooltip-container'>
                     <p className='tooltip'>Vektorprogrammet</p>
-                    <Link to='/oldPortfolio/projects/vektorprogrammet'><img className='project-image rectangle-image' alt='' src={vektor} /></Link>
+                    <Link to='/old-portfolio/projects/vektorprogrammet'><img className='project-image rectangle-image' alt='' src={vektor} /></Link>
                 </div>
                 <div className='tooltip-container'>
                     <p className='tooltip'>IBDb</p>
-                    <Link to='/oldPortfolio/projects/ibdb'><img className='project-image rectangle-image' alt='' src={ibdb} /></Link>
+                    <Link to='/old-portfolio/projects/ibdb'><img className='project-image rectangle-image' alt='' src={ibdb} /></Link>
                 </div>
             </div>
             <div className='image-container'>
                 <div className='image-container hidden'>
                     <div className='tooltip-container'>
                         <p className='tooltip'>Workout Journal</p>
-                        <Link to='/oldPortfolio/projects/workoutjournal'><img className='project-image portrait-image' alt='' src={workout} /></Link>
+                        <Link to='/old-portfolio/projects/workoutjournal'><img className='project-image portrait-image' alt='' src={workout} /></Link>
                     </div>
                     <div className='tooltip-container'>
                         <p className='tooltip'>Clothing Storage</p>
-                        <Link to='/oldPortfolio/projects/clothingstorage'><img className='project-image portrait-image' alt='' src={clothingStorage} /></Link>
+                        <Link to='/old-portfolio/projects/clothingstorage'><img className='project-image portrait-image' alt='' src={clothingStorage} /></Link>
                     </div>
                 </div>
                 <div className='hidden'>
                     <div className='tooltip-container'>
                         <p className='tooltip'>TicTacToe</p>
-                        <Link to='/oldPortfolio/projects/tictactoe'><img className='project-image square-image' alt='' src={tictactoe} /></Link>
+                        <Link to='/old-portfolio/projects/tictactoe'><img className='project-image square-image' alt='' src={tictactoe} /></Link>
                     </div>
                     <div className='tooltip-container'>
                         <p className='tooltip'>Nim</p>
-                        <Link to='/oldPortfolio/projects/nim'><img className='project-image square-image' alt='' src={nim} /></Link>
+                        <Link to='/old-portfolio/projects/nim'><img className='project-image square-image' alt='' src={nim} /></Link>
                     </div>
                 </div>
             </div>
